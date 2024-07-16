@@ -1,0 +1,195 @@
+/* Navigations bar design part */
+nav{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+nav h3{
+    font-weight: 800px;
+    margin-left: 5%;
+}
+nav > ul{
+    list-style: none;
+    margin-left: 60%;
+}
+nav li{
+    display: inline;
+    margin-right: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    margin: 10px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    border:0px;
+    font-weight: 700px;
+    padding: 0px 10px 0px;
+}
+
+.nav-style{
+    color: #FD6E0A;
+}
+
+
+/* Banner */
+ header{
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+ } 
+ .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+ }
+ .banner-name{
+    font-weight: 600;
+ }
+ .profile-picture{
+    height: 430px;
+    margin-right: 0%;
+ }
+
+.btn-para{
+align-items: center;
+}
+
+/* Shared part */
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* General setup  */
+.section-1{
+    background-color: #FFF8F3;
+    margin: 60px 100px 0px;
+    padding:60px;
+}
+.about_me{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.about_me h1{
+    text-align: center;
+}
+.info-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-value{
+    font-weight: bolder;
+    margin-top: 0px;
+}
+.info-key{
+    text-align: center;
+    margin-bottom:0px;
+}
+
+/* Here we start the section two works for what I do section/ */
+
+
+
+.section-2{
+    padding: 0px 200px;
+}
+.section-2 h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.section-3{
+    padding:0px 200px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.skill-title{
+    text-align: center;
+}
+.skill{
+    display: grid;
+    padding: 10px;
+    background:hsl(0, 16%, 44%);
+    box-shadow: 11px 2px 5px 0px rgb(176, 175, 145);
+    border-radius: 5px;
+}
+.section-3 img{
+    margin: 0px 7em;
+}
+
+
+/* Resume summer section */
+
+.section-4{
+    margin:0px 25% 0px;
+}
+.summery{
+    display: flex;
+}
+.summery-title{
+    text-align: center;
+}
+.my_educations{
+ margin: 10px;
+}
+.course_insti{
+    margin: 0px;
+    font-weight: 200;
+}
+.course_title{
+    margin: 0px;
+}
+
+.course_desc{
+    margin:5px 0px 0px;
+}
+.section-4 > .btn-primary{
+    margin-left:45%;
+    margin-top:10px;
+}
+
+
+/* Footer columns */
+
+.footer{
+    background-color: #FFF8F3;
+    margin: 10px 0px 0px;
+}
+.footer-column{
+    margin: 0px 20%;
+}
+.footer-column1{
+    margin: 0px 20%;
+    padding: 10px;
+}
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.footer-form input,textarea{
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border:0px;
+}
+.footer-column1 img{
+    margin-right: 10px;
+}
