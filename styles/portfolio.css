@@ -209,3 +209,14 @@ align-items: center;
         flex-direction: column;
     }
 }
+
+@media  screen and ( min-width:576px ) and (max-width:800px) {
+    .nav ul{
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+}
