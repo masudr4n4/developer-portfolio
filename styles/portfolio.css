@@ -193,3 +193,19 @@ align-items: center;
 .footer-column1 img{
     margin-right: 10px;
 }
+.hide{
+    display: none;
+}
+
+/* ---- Making my portfolio responsive */
+
+@media  screen and ( max-width:576px ) {
+    .nav ul{
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+}
