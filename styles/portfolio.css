@@ -244,7 +244,7 @@ align-items: center;
         display: flex;
         flex-direction: column;
     }
-    .section-1,.section-2,.section-3,.section-4{
+    .section-1,.section-2,.section-3,.section-4,.footer,.footer-column1,.footer-column{
         margin: 0px;
         padding: 0px;
     }
@@ -262,4 +262,8 @@ align-items: center;
     .skill-img{
         margin-left: 45%;
     }
+    .footer-column1 h1,.footer-column h1{
+        text-align: center;
+    }
+
 }
