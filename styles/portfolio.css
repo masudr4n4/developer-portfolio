@@ -204,9 +204,18 @@ align-items: center;
         display: flex;
         align-items: center;
         margin-left: 0px;
+        width: 100%;
+        justify-content: space-between;
     }
     .banner{
         flex-direction: column-reverse;
+    }
+    .about_me{
+        margin: 0px;
+    }
+    .info-section{
+        display: flex;
+        flex-direction: column;
     }
 }
 
