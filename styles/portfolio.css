@@ -237,4 +237,8 @@ align-items: center;
         display: flex;
         flex-direction: column;
     }
+    .section-1{
+        margin: 0px;
+        padding: 0px;
+    }
 }
