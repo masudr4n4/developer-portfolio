@@ -241,4 +241,7 @@ align-items: center;
         margin: 0px;
         padding: 0px;
     }
+    .info-value{
+        text-align: center;
+    }
 }
