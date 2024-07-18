@@ -206,7 +206,7 @@ align-items: center;
         margin-left: 0px;
     }
     .banner{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 
