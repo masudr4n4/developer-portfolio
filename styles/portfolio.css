@@ -250,5 +250,6 @@ align-items: center;
     }
     .info-value{
         text-align: center;
+        margin-top:0px;
     }
 }
