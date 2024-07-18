@@ -238,6 +238,11 @@ align-items: center;
     .footer-column1 h1,.footer-column h1{
         text-align: center;
     }
+    .skill-image{
+        align-items: center;
+        justify-content: center;
+        
+    }
 }
 
 @media  screen and ( min-width:576px ) and ( max-width:1400px ) {
@@ -278,6 +283,11 @@ align-items: center;
     }
     .footer-column1 h1,.footer-column h1{
         text-align: center;
+    }
+    .skill-image{
+        align-items: center;
+        justify-content: center;
+
     }
 
 }
